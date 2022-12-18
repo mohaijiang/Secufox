@@ -881,6 +881,9 @@ const riskItemNum = computed(() => {
   if (goplusData.value.buy_tax && parseFloat(goplusData.value.buy_tax) > 0.1) {
     risk++
   }
+  if (goplusData.value.owner_change_balance && goplusData.value.owner_change_balance === '1'){
+    risk++
+  }
   return risk
 })
 const attentionItemNum = computed(() => {
@@ -900,6 +903,10 @@ const attentionItemNum = computed(() => {
   if (goplusData.value.is_mintable && goplusData.value.is_mintable === '1') {
     attention++
   }
+  if (goplusData.value.hidden_owner && goplusData.value.hidden_owner === '1'){
+    attention++
+  }
+
   return attention
 })
 
