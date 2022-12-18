@@ -108,7 +108,7 @@ $ npm run dev
 
 ## 7. Contributors
 
-Thank you for considering your contribution to hamster!
+Thank you for considering your contribution to Secufox!
 
 <a href="https://github.com/lt-liam/Secufox/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=lt-liam/Secufox" />
